@@ -1,5 +1,4 @@
-"""Median calculator."""
-"""ENTER YOUR SOLUTION HERE!"""
+# Ayan Mahmood - medians task
 def medianGet(numbers):
     if len(numbers) % 2 == 0:
         return f"{(numbers[int(len(numbers) / 2)])}/{(numbers[(int(len(numbers) / 2) - 1)])}"
