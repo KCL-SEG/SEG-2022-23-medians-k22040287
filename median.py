@@ -8,7 +8,7 @@ def medianGet(numbers):
     print(numbers)
     middle = len(numbers) // 2
     if len(numbers) % 2 == 0:
-        return (numbers[(middle + 1)] + numbers[middle]) / 2
+        return (numbers[(middle - 1)] + numbers[middle]) / 2
     else:
         return numbers[int(len(numbers) / 2)]
 
